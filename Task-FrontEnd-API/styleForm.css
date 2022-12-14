@@ -1,0 +1,159 @@
+.main {
+    background: linear-gradient(113.87deg, #e0c0cf 14.81%, #758FF0 88.76%);
+}
+
+.parent {
+    height: 713px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.get-started {
+    background-color: #e7e7fe;
+    height: 500px;
+    width: 1000px;
+
+}
+
+.main-head {
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img {
+    height: 400px;
+    width: 300px;
+}
+
+.image {
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.btn {
+    width: 300px;
+    background-image: linear-gradient(45deg, #2663DF, #758FF0);
+    color: white;
+    height: 50px;
+    box-shadow: 0px 6px 18px #9CADF2;
+}
+.btn:hover{
+    color: white;
+    background-image: linear-gradient(45deg, #2663DF, #2663DF);
+}
+
+.head {
+    height: 400px;
+    width: 300px;
+}
+.div-form{
+    margin-top: 20px;
+}
+input#exampleInputEmail1{
+    padding-left: 35px;
+}
+.icon{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 5px;
+    color: #9CADF2;
+   
+    
+}
+.icon::after{
+    content: "";
+    background-color: #DBE3FF; 
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    height: 14px;
+    width: 1px;
+}
+.span-error{
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+
+}
+@media screen and (min-width:0px) and (max-width:480px) {
+    .parent {
+        height: 800px;
+    }
+
+    .get-started {
+        height: 800px;
+
+    }
+
+    .main-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
+    .img {
+        margin-top: 40px;
+
+    }
+    .image{
+        height: 310px;
+    }
+
+    .head {
+        margin-top: 60px;
+    }
+    .h3{
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .parent {
+        height: 626px;
+    }
+
+    .get-started {
+        height: 491px;
+        width: 716px;
+    }
+
+    
+
+    .main-head {
+        display: flex;
+
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
+    .img {
+        margin-top: 60px;
+
+    }
+
+    .head {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+    .parent {
+        height: 626px;
+    }
+    
+}

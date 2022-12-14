@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="parent">
+            <div class="get-started">
+                <div class="main-head">
+                    <div class="img">
+                        <img class="image" src="images/brace.png" alt="">
+                    </div>
+                    <div class="head">
+                        <h3 class="h3">Create Account</h3>
+                        <p class="para">Go ahead and sign up, let everyone know how awesome you are!</p>
+                        <div class="div-form">
+                            <form action="" id="form">
+                                <div class="mb-3">
+                                    <i class="bi bi-person icon"></i>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Username" name="username">
+                                        <span id="error" class="span-error"></span>
+                                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+
+                                <div class="mb-3">
+                                    <i class="bi bi-envelope icon"></i>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email" name="email" >
+                                        <span id="erroremail" class="span-error"></span>
+                                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+
+                                <div class="mb-3">
+                                    <i class="bi bi-lock icon"></i>
+                                    <input type="password" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Password" name="password" >
+                                        <span id="errorpass" class="span-error"></span>
+                                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+
+                                <div class="mb-3">
+                                    <i class="bi bi-lock icon"></i>
+                                    <input type="password" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Confirm password" name="confirm-password">
+                                        <span id="errorconfirm" class="span-error"></span>
+                                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+                                 <button type="submit" class="btn btn-primary">Get Started</button>
+                            </form>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="./formApi.js"></script>
+</body>
+
+</html>
